@@ -81,6 +81,7 @@ uosc places performance as one of its top priorities, but it might feel a bit sl
 * [CfL_Prediction](https://github.com/Artoriuz/glsl-chroma-from-luma-prediction)
 * [CuNNy](https://github.com/funnyplanter/CuNNy)
 * [FSRCNNX](https://github.com/igv/FSRCNN-TensorFlow/releases)
+* [FSRCNNX enhance](https://github.com/HelpSeeker/FSRCNN-TensorFlow/releases/tag/1.1_distort)
 * [Filmgrain](https://github.com/haasn/gentoo-conf/tree/xor/home/nand/.mpv/shaders)
 * [hdeband and nlmeans](https://github.com/AN3223/dotfiles/tree/master/.config/mpv/shaders)
 * [JointBilateral and FastBilateral](https://github.com/Artoriuz/glsl-joint-bilateral)
