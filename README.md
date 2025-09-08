@@ -36,7 +36,7 @@ git clone https://github.com/HongYue1/mpv-config.git && mkdir -p ~/.config/mpv &
   - `profiles.conf:line 69` : `profile-cond=(p["audio-params/channel-count"] == 6)`
   - `profiles.conf:line 75` : `profile-cond=(p["audio-params/channel-count"] == 8)`
  
-- If you don't have a calibrated icc being used in windows or if you have issues with color in video delete this line:
+- If you don't have a calibrated icc being used in windows or if you have issues with color in video delete this line (now disabled by default since it messes up the gamma in videos, for me at least):
   - `mpv.conf:line 63` : `icc-profile-auto`    
 - video output range is set to `full` by default but if you are using a TV for example that only supported limited range then change this line:
   - `mpv.conf:line 73` : `video-output-levels=full` to `video-output-levels=limited` or simply put it on auto `video-output-levels=auto`
