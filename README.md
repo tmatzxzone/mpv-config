@@ -46,6 +46,7 @@ git clone https://github.com/HongYue1/mpv-config.git && mkdir -p ~/.config/mpv &
   - `mpv.conf:line 53` : `dither-depth=10` set it to your screen bit depth. if you use `gpu-api=d3d11` then you can simply set it to `auto`
   - Note that the on-the-wire bit depth cannot be detected except when using gpu-api=d3d11. Explicitly setting the value to your display's bit depth is recommended, as dithering performed by some LCD panels can be of low quality.
 - Default shaders for SD and HD+ content can be changed in the `profiles.conf`
+- `mpv.conf:line 39` : `d3d11-exclusive-fs` doesn't work on linux so it should be commented or deleted.
 
 ---
 
