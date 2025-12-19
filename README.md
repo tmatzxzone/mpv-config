@@ -70,6 +70,7 @@ uosc places performance as one of its top priorities, but it might feel a bit sl
 - [mpv-reload](https://github.com/4e6/mpv-reload) - mpv plugin for automatic reloading of slow/stuck video streams
 - [mpv-ytsub](https://github.com/Idlusen/mpv-ytsub) - lua script for mpv to load youtube automatic captions
 - [mpv_sponsorblock_minimal](https://codeberg.org/jouni/mpv_sponsorblock_minimal) - skips sponsorblock
+- [mpv-ytdl-preload](https://github.com/tmatzxzone41/mpv-ytdl-preload) - preload stream playlist (support onedrive-index link)
 
 ---
 
