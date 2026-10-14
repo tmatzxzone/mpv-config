@@ -1119,6 +1119,16 @@ mp.register_script_message('menu-action', function(name, ...)
 		if method then menu[method](menu, ...) end
 	end
 end)
+mp.register_script_message('thumbz-info', function(json)
+	local data = utils.parse_json(json)
+	if type(data) ~= 'table' or not data.width or not data.height then
+		thumbnail.disabled = true
+		msg.error('thumbz-info: received json didn\'t produce a table with thumbnail information')
+	else
+		thumbnail = data
+		request_render()
+	end
+end)
 mp.register_script_message('thumbfast-info', function(json)
 	local data = utils.parse_json(json)
 	if type(data) ~= 'table' or not data.width or not data.height then
