@@ -64,7 +64,7 @@ uosc places performance as one of its top priorities, but it might feel a bit sl
 ## Scripts used:
 - [uosc](https://github.com/darsain/uosc) - Adds a minimalist but highly customisable GUI.
 - [evafast](https://github.com/po5/evafast) - Fast-forwarding and seeking on a single key.
-- [thumbfast](https://github.com/po5/thumbfast) - High-performance on-the-fly thumbnailer.
+- [thumbz](https://github.com/Demetter/ModernGlass/) - High-performance on-the-fly thumbnailer.
 - [memo](https://github.com/po5/memo) - A recent files/history menu for mpv with optional uosc integration.
 - [quality-menu](https://github.com/natural-harmonia-gropius/mpv-quality-menu) - A userscript for MPV that allows you to change the streamed video and audio quality (ytdl-format) on the fly.
 - [mpv-reload](https://github.com/4e6/mpv-reload) - mpv plugin for automatic reloading of slow/stuck video streams
@@ -102,5 +102,6 @@ uosc places performance as one of its top priorities, but it might feel a bit sl
 - https://github.com/itsmeipg/mpv-config/
 - https://github.com/noelsimbolon/mpv-config/
 - https://github.com/zydezu/mpvconfig/
+- https://github.com/Demetter/ModernGlass/
 
    
